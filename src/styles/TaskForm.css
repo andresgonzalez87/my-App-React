@@ -1,0 +1,15 @@
+.input-css {
+    border: 2px solid black;
+    transition: border 0.3s, box-shadow 0.3s;
+
+    &:focus {
+        border: 2px solid black;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+}
