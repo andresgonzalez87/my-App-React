@@ -89,6 +89,7 @@ const handleAddTask = (taskName) => {
   // Renderizar la interfaz de usuario de la aplicación
   return (
     <div>
+      <i className="fa-solid fa-list-check fa-spin" style={{ fontSize: "4em", color: "#36db33", margin: "20px 40px" }}></i>
       <h1 className='text-center'>Aplicación de Tareas</h1>
       {/* Componente para agregar nuevas tareas */}
       <TaskForm onAddTask={handleAddTask} />
