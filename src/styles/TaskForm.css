@@ -8,6 +8,10 @@
     }
 }
 
+.input-css::placeholder {
+    text-align: center;
+}
+
 .btn-dark {
     background-color: black;
     color: white;
